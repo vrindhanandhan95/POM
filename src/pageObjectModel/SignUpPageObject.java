@@ -36,6 +36,5 @@ public class SignUpPageObject {
 	public static WebElement accountType(WebDriver driver)
 	{
 		return driver.findElement(By.xpath("//*[@id='account_type']"));
-		///html/body/span/span/span[2]
 	}
 }

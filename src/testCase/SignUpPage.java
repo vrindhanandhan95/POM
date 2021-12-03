@@ -26,6 +26,8 @@ public class SignUpPage {
 		
 		Select select = new Select((WebElement) SignUpPageObject.accountType(driver));
 		select.selectByIndex(1);
+		
+		System.out.println("Filled all the fields in the Signup page");
 
 
 }
